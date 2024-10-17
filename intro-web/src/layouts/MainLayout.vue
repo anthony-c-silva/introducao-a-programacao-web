@@ -12,10 +12,8 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Web App
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
@@ -28,7 +26,7 @@
         <q-item-label
           header
         >
-          Essential Links
+          Links Essencias
         </q-item-label>
 
         <EssentialLink
@@ -55,47 +53,23 @@ defineOptions({
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
+    title: 'Linkedin',
+    caption: 'linkedin.com/in/anthony-c-silva',
     icon: 'school',
-    link: 'https://quasar.dev'
+    link: 'https://www.linkedin.com/in/anthony-c-silva-844619186'
   },
   {
     title: 'Github',
-    caption: 'github.com/quasarframework',
+    caption: 'github.com/anthony-c-silva',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: 'https://github.com/anthony-c-silva'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
+    title: 'Whatsapp',
+    caption: 'chat.whatsapp.com',
     icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    link: 'https://api.whatsapp.com/message/A7BDLAAKRCP7F1?autoload=1&app_absent=0'
   },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
 ]
 
 const leftDrawerOpen = ref(false)
